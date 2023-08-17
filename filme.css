@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family= Noto +Sans & display=swap');                                                                                       
+@import url('https://fonts.googleapis.com/css2?family= Itim & display=swap');   
+@import url('https://fonts.googleapis.com/css2?family= Poppins & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+display: inline-block;
+padding: 15px 60px;
+font-size: 1.1rem;
+text-transform: uppercase; 
+background: #111;
+color: #eee;
+border-radius: 5px;
+transition: background 500ms ease;
+}
+
+btn{
+    cursor: pointer;
+    background: #111;
+
+}
+
+.headline{
+
+    font-size: 2,2rem;
+    text-transform: uppercase; 
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+li, a {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu {
+    display: none;
+}
+
+#navbar{
+    width: 100%;
+    background: #F48729;
+    color:#382663;
+    height: 80px;
+    position: fixed;
+    
+}
+
+#navbar-container{
+    width:80%;
+    height: 100%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.logo{
+    font-size: 3rem;
+    
+}
+
+#navbar-items{
+    display:flex;
+    list-style: none;
+     text-transform: uppercase;
+}
+#navbar-items li{
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.filme-container {
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.etaria {
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.capa {
+    width: 210px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+
+.sinopse {
+    text-align: justify;
+    width: 30%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-family: 'Itim', cursive;
+    
+}
+
+.trailer {
+    margin-left: 20%;
+    margin-bottom: 8%;
+    font-family: 'Itim', cursive;
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+   
+}
+
+.informacoes {
+    color: #eee;
+    margin-bottom: 2%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 17px;
+}
+
+span {
+    color: #F48729;
+}
+
+.beneficios {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .imagembeneficios {
+    width: 20%;
+    margin-top: 7%;
+    border: solid 1px white;
+  }
+  
+  
+  .textos {
+    width: 40%;
+  }
+  
+  .textos2 {
+    margin-left: 20%;
+  }
+  
+  .lei-text {
+    font-size: 10px;
+  }
+  
+  .titulo {
+    font-family: 'Itim', cursive;
+    font-size: 45px;
+    margin-bottom: 7%;
+  }
+  
+  .texto{
+    font-size: 20px; 
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 7%;
+  }
+  
+
+
+.redes {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.redes:hover {
+    opacity: .9;
+}
+
+.icones {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.creditos {
+    display: flex;
+}
+
+.criadores {
+    cursor: pointer;
+}
+
+
+
+
+
+
+

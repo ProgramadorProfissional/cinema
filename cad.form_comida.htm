@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de alimentos - Cinema Câmera</title>
+</head>
+
+<body style="background-color: #382663;">
+    <div class="container">
+        <div class="form-image"  style="background-color: #F48729;">
+            <img src="img/logo_ofc.jpeg" alt="">
+        </div>
+        <div class="form">
+            <form action="cad.conexao_comida.php" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro Alimentos</h1>
+                    </div>
+                
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Tamanho da pipoca:</label>
+                        <input id="firstname" type="text" name="pipoca" placeholder="Digite o tamanho" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Refrigerante:</label>
+                        <input id="lastname" type="text" name="refrigerante" placeholder="Digite o refrigerante" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Chocolate:</label>
+                        <input id="email" type="text" name="chocolate" placeholder="Branco ou Preto" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Acompanhamento:</label>
+                        <input id="number" type="text" name="chips" placeholder="Digite o acompanhamento" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Água:</label>
+                        <input id="password" type="text" name="agua" placeholder="Gás ou Sem gás" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Valor:</label>
+                        <input id="confirmPassword" type="option" name="valor" placeholder="R$ xx,xx" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="cad.conexao_comida.php">Cadastrar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

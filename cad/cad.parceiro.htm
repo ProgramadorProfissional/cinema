@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="pt-br" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title> Seja nosso parceiro - CTSM</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="picwish (8) (1).png" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+
+    <script src="//code.jivosite.com/widget/x2rWXhD6J6" async></script>
+
+    
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">CTSM</h1>
+            <button class="menu" onclick="abrirMenu()"> &#x2630 </button>
+            <ul id="navbar-items">
+                <li><a href="Index.htm"> Voltar para o menu</a></li>
+               
+            </ul>
+          </div>
+         </nav>
+         
+    <div class="container">
+        <div class="text"> Solicite parceira!</div>
+        <form action="cad.conexao.parceiro.php" method="POST">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required   name="nome">
+                 <div class="underline"></div>
+                 <label for="">Nome da sua empresa:</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required   name="representante">
+                 <div class="underline"></div>
+                 <label for="">Nome do representante:</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="cnpj">
+                 <div class="underline"></div>
+                 <label for="">CNPJ/CPF:</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="endereco" required  name="endereco">
+                 <div class="underline"></div>
+                 <label for="">Endereço:</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="telefone">
+                 <div class="underline"></div>
+                 <label for="">Telefone:</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="email">
+                 <div class="underline"></div>
+                 <label for="">E-mail:</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data textarea">
+          
+                 <div class="form-row submit-btn">
+                    <div class="input-data">
+                       <div class="inner"></div>
+                       <input type="submit" value="Enviar">
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </form>
+     </div>
+
+
+     <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  
+
+   </body>
+</html>

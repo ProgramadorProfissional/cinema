@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Cadastro dos ingressos - Cinema Câmera</title>
+</head>
+
+<body style="background-color: #382663;">
+    <div class="container">
+        <div class="form-image" style="background-color: #F48729;">
+            <img src="img/logo_ofc.jpeg" alt="">
+        </div>
+        <div class="form">
+            <form action="cad.conexao_ingresso.php" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro Ingressos:</h1>
+                    </div>
+                
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="">Nome do cliente:</label>
+                        <input type="text" name="nome" placeholder="Digite o nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="">Idade:</label>
+                        <input type="text" name="idade" placeholder="Digite a idade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="">Estudante:</label>
+                        <input type="text" name="estudante" placeholder="Sim ou Não" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="">Sala:</label>
+                        <input type="text" name="sala" placeholder="xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="">Assento:</label>
+                        <input  type="text" name="assento" placeholder="Ex: A10" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="">Valor:</label>
+                        <input type="text" name="valor" placeholder="R$ xx,xx" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero:</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" name="genero">
+                            <label for="">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="genero">
+                            <label for="">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="genero">
+                            <label for="">Outro</label>
+                        </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="cad.form_cliente.htm">Cadastrar </a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

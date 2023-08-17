@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de filmes - Cinema Câmera</title>
+</head>
+
+<body style="background-color: #382663;">
+    <div class="container">
+        <div class="form-image"  style="background-color: #F48729;">
+            <img src="img/logo_ofc.jpeg" alt="">
+        </div>
+        <div class="form">
+            <form action="cad.conexao_filme.php" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro Filmes</h1>
+                    </div>
+                
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome:</label>
+                        <input id="firstname" type="text" name="nome" placeholder="Digite o nome do filme" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Diretor(a):</label>
+                        <input id="lastname" type="text" name="diretor" placeholder="Digite o nome do diretor(a)" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Gênero:</label>
+                        <input id="email" type="text" name="genero" placeholder="Digite o gênero" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Classificação:</label>
+                        <input id="number" type="text" name="classificacao" placeholder="Digite a classificação" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Duração:</label>
+                        <input id="password" type="text" name="duracao" placeholder="Ex: 120 min" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Valor:</label>
+                        <input id="confirmPassword" type="option" name="preco" placeholder="R$ xx,xx" required>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Cadastrar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

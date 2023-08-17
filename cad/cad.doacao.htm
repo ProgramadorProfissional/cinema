@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sua doação - CTSM</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="picwish (8) (1).png" type="image/x-icon">
+</head>
+<body style="background-color: #689ECB;">
+    
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">CTSM</h1>
+            <button class="menu" onclick="abrirMenu()"> &#x2630 </button>
+            <ul id="navbar-items">
+                <li><a href="Index.htm"> Voltar para o menu</a></li>
+               
+            </ul>
+          </div>
+         </nav>
+         
+    <div id="formulario">
+        <h1 id="form-text"> Ajude a nossa ONG! </h1>
+        <form action="cad.conexao.doacao.php" method="POST">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+            <label for="nome">Sobrenome: </label>
+            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+            <label for="nome">CPF:</label>
+            <input type="text" name="cpf" placeholder="Digite seu CPF" required>
+            <label for="nome">Cidade:</label>
+            <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required>
+            <label for="mensagem">O que deseja doar?</label>
+            <textarea name="contribuicao"  placeholder="Dinheiro, alimento, roupas, brinquedos..."></textarea>
+           <a href="index.htm"> <button class="btnEnviar"> <b>Enviar</b> </button> </a>
+    </form>
+    </div>
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
+
+</body>
+</html> 
